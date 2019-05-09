@@ -11,7 +11,7 @@ Navigate to [github.com](www.github.com) and sign up and create a profile.
 
 # Create a New Repository or "Repo"
 
-Click on the "New" button to create a new repository. Name it `launch-page`. Leave it as Public and do not "Initialize this repository with a README.md"
+Click on the green "New" button to create a new repository. Name it `launch-page`. Leave it as Public and do not "Initialize this repository with a README.md"
 
 ![New Repo](new-repo.png)
 
@@ -23,7 +23,7 @@ Click on the little blue text that says "Upload a File".
 
 ![Upload a File](upload-file.png)
 
-Choose your `index.html` file to upload.
+Choose your `index.html` file and any other images to upload.
 
 # Settings => GitHub Pages
 
@@ -54,7 +54,7 @@ Navigate your browser to it.
 
 # Making Changes
 
-Oops you spelled something wrong. Try opening up the `index.html` file in your GitHub repo, by clicking on the file. You can edit the file directly in GitHub and then "Commit" the changes.
+Imagine you spelled something wrong and needed to fix it. Try opening up the `index.html` file in your GitHub repo, by clicking on the file. You can edit the file directly in GitHub and then "Commit" the changes.
 
 But.... now is your "Production Environment" code different from your "Development Environment"? Be careful! Try to keep them in sync.
 

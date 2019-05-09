@@ -14,7 +14,6 @@ Navigate to [Bootswatch.com](https://bootswatch.com/) and pick a theme you like.
 You can either download the `.min.css` file and add it to your project, or just use the url to link it in your head BELOW where you added bootstrap itself:
 
 ```html
-```html
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,6 +31,45 @@ You can either download the `.min.css` file and add it to your project, or just 
 How's that look?
 
 You might want to tweek your navbar to be either `navbar-light` or `navbar-dark` and change the background to `bg-white` or `bg-dark` or play with colors like: `bg-primary`, `bg-secondary` etc. And the footer too you might want to change.
+
+# Add Custom Styles
+
+To add your own custom CSS to modify bootstrap, you have to make a new CSS file and link it to your project.
+
+Let's follow convention and call it `styles.css`.
+
+Now we can link it in the `<head>` tag after both bootstrap and the theme.
+
+```html
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <!-- BOOTSTRAP THEME -->
+  <link rel="stylesheet" href="https://bootswatch.com/4/cyborg/bootstrap.min.css">
+
+  <!-- CUSTOM STYLES -->
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+```
+
+>[info]
+>If you put your styles ABOVE bootstrap or the theme, they will overwrite your styles, but if you put them BELOW then your styles overwrite them! Which is what we want.
+
+To  test if your styles page is linked properly, add this crazy style:
+
+```css
+body {
+  color:red;
+}
+```
+
+How does that look?
 
 # Customize the Navbar
 
