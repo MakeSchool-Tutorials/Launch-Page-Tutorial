@@ -52,3 +52,34 @@ Now return to your desktop and open the `code` folder and then the `launch-page`
 You should be seeing "Hello World" in your browser. Nice work!
 
 You are using your browser to **render HTML**.
+
+# Change It
+
+Change "Hello World" to "Launch Page". Save using `command + s` and then go back to your browser and refresh using `command + r`.
+
+You should see "Launch Page" now.
+
+# Add Some Comments
+
+We can use **Comments** to give us some signposts in our code and make a bit of a plan. So let's add the following comments into our `index.html` file:
+
+```html
+
+<!-- NAVBAR -->
+
+
+<!-- HERO -->
+
+<h1>Launch Page</h1>
+
+<!-- BENEFITS -->
+
+
+<!-- CALL TO ACTION -->
+
+
+<!-- FOOTER -->
+
+```
+
+Onward!
