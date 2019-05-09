@@ -1,7 +1,6 @@
-title: "Tutorial Template Title, max 56 characters"
-cover: cover.png
-solution_url: https://github.com/MakeSchool-Tutorials/Tutorial-Template/
+title: "Make a Launch Page"
+cover: cover.jpg
+solution_url:
 teaser_text: |
-    Tell the user what they will learn!
-    This can be multi-line text.
-    150 characters max!
+    Learn to make a flashy launch page for your next product.
+    As you go, get an introduction to HTML, CSS and Bootstrap 4
