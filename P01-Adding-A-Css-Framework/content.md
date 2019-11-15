@@ -5,14 +5,14 @@ slug: adding-a-css-framework
 
 By the end of this chapter you will have a classic launch page for your product built that looks like this:
 
-![wireframe](wireframe.png)
+![wireframe](assets/wireframe.png)
 
 We could code the whole thing up ourselves using our own CSS, or we can do what almost everyone does from the smallest consultant to the largest companies: we could use a **CSS Framework**
 
 In this case we'll be using the most popular CSS framework on the internet **Bootstrap 4**.
 
 >[info]
->Thoughtout this tutorial you will need to read and review the [Boostrap 4 documentation](https://getbootstrap.com/docs/4.3/getting-started/introduction/) to succeed. If you get stuck, double check the tutorial, then look at the docs and try to figure things out for yourself for at least 10-20 min before asking a friend or instructor. 
+>Thoughtout this tutorial you will need to read and review the [Boostrap 4 documentation](https://getbootstrap.com/docs/4.3/getting-started/introduction/) to succeed. If you get stuck, double check the tutorial, then look at the docs and try to figure things out for yourself for at least 10-20 min before asking a friend or instructor.
 
 # Installing Emmet
 
@@ -79,6 +79,8 @@ Move our comments into the `<body></body>` tag and your `index.html` should look
 >[info]
 >Watch out for **INDENTATION**. It is important to always keep everything properly indented. The HTML will work if the indentation is bad, but it will be VERY HARD for you to see bugs and problems. So always keep your indentation pristine.
 
+If you refresh your browser, you shouldn't see much change here. We'll be adding more to this now!
+
 
 # Adding Bootstrap 4
 
@@ -95,7 +97,9 @@ There are a few ways to add Bootstrap 4 to our project, but we're going to use t
 </head>
 ```
 
-We can tell that bootstrap is added if you save and refresh your page in your browser. The font of our `h1` should change to the boostrap fonts.
+We can tell that bootstrap is added if you save and refresh your page in your browser. The font of our `h1` should change to the boostrap fonts:
+
+![boostrap_font](assets/bootstrap_font.png)
 
 # Adding a Navbar
 
@@ -117,7 +121,7 @@ If we want to add to this some links to other pages you can use the `navbar-nav`
 ```html
   <!-- NAVBAR -->
   <nav class="navbar navbar-expand navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#">Launch Page</a>
     <div class="navbar-nav">
       <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link" href="#">Features</a>
@@ -125,6 +129,10 @@ If we want to add to this some links to other pages you can use the `navbar-nav`
     </div>
   </nav>
 ```
+
+After putting in the above code, your page should now loook like the following:
+
+![navbar](assets/navbar.png)
 
 # Adding a Hero with "Jumbotron"
 
@@ -141,7 +149,11 @@ In bootstrap, to make a nice Hero, we use the `jumbotron` component. We will als
   </div>
 ```
 
-Customize the text to your product or organization.
+Your page should now look like the following:
+
+![jumbotron](assets/jumbotron.png)
+
+Alriht, it's starting to come together now! Customize the text to your product or organization.
 
 # Adding Benefits
 
@@ -194,7 +206,13 @@ If you like, you can put **Lorem Ipsum** text into the `<p>` tag as filler.
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
 ```
 
-This whole section is a little to close to the one above it and below it, so we can use bootstrap 4's **Utility Classes** to give it a little more space. Add the classes `pb-5 pt-5` to the `container` class div. `pb-5` stands for "padding-bottom-5" and `pt-5` stands for "padding-top-5". By adding these we will give the container a little padding on the bottom and top. That's better!
+After adding in the filler text, your page should look like the following:
+
+![lorem](assets/lorem.png)
+
+This whole section is a little to close to the one above it and below it, so we can use bootstrap 4's **Utility Classes** to give it a little more space. Add the classes `pb-5 pt-5` to the `container` class div. `pb-5` stands for "padding-bottom-5" and `pt-5` stands for "padding-top-5". By adding these we will give the container a little padding on the bottom and top.
+
+Refresh your browser, and you should notice a bit more spacing now. That's better!
 
 # Adding a Call To Action (CTA)
 
@@ -216,7 +234,7 @@ Now let's add the form. We can use bootstrap's `inline-form` class ([inline form
 
 ```html
   <!-- CALL TO ACTION -->
-  <div class="jumbotron text-center">
+  <div class="jumbotron text-center mb-0">
     <p class="lead mb-4">Sign Up for More Infomation</p>
     <div class="d-flex justify-content-center">
       <form action="#" class='form-inline'>
@@ -227,7 +245,11 @@ Now let's add the form. We can use bootstrap's `inline-form` class ([inline form
   </div>
 ```
 
-Now, you can add the `mb-0` **Utility Class** to remove the margin from the bottom of the `jumbotron` class so this section sits flush with the next one: the footer.
+Your page should look like the following now:
+
+![cta](assets/cta.png)
+
+Notice the `mb-0` **Utility Class** in that first `div`. We use this utility class  to remove the margin from the bottom of the `jumbotron` class so this section sits flush with the next one: the footer.
 
 # Adding a Footer
 
@@ -247,9 +269,9 @@ Its good to make footers a dark color because it sort of signifies that the page
 >[info]
 >That little `&copy;` is HTML's way of writing the copyright symbol: ©.
 
-You're page should look like this:
+You're page should look similar to this:
 
-![wireframe](wireframe.png)
+![wireframe](assets/wireframe.png)
 
 If it does, great work! Otherwise go back and troubleshoot until it is pixel perfect.
 
