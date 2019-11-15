@@ -107,7 +107,7 @@ When adding YouTube videos, you want to grab the **embedded** url, and not the r
 
 > [action]
 >
-> Watch this short vifeo on how to get the embed link from a YouTube Video:
+> Watch this short video on how to get the embed link from a YouTube Video:
 >
 > ![ms-video](assets/embed_youtube.mov)
 
