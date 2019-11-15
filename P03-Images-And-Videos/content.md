@@ -101,7 +101,15 @@ Great!
 
 Nothing beats a good video to explain or show off a product, service, or organization.
 
-If we want to embed a video and make it also scale to the size of its parent element we can use bootstrap's `embed-responsive` class and include our desired **Aspect Ratio**. For youtube vidoes that will be "16by9".
+If we want to embed a video and make it also scale to the size of its parent element we can use bootstrap's `embed-responsive` class and include our desired **Aspect Ratio**. For youtube vidoes that will be `16by9`.
+
+When adding YouTube videos, you want to grab the **embedded** url, and not the regular one that you see when watching a video.
+
+> [action]
+>
+> Watch this short vifeo on how to get the embed link from a YouTube Video:
+>
+> ![ms-video](assets/embed_youtube.mov)
 
 Try commenting out your image and put this instead. Remember to replace the youtube link with the video you'd like to use.
 
