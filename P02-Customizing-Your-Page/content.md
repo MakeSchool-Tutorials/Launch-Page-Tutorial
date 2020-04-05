@@ -65,7 +65,7 @@ To  test if your styles page is linked properly, add this crazy style:
 
 ```css
 body {
-  color:red;
+  color: red;
 }
 ```
 
@@ -77,7 +77,7 @@ Now we might want to make the Navbar a bit different. The easiest thing to do is
 
 ```css
 .navbar {
-  padding 1rem;
+  padding: 1rem;
 }
 ```
 
@@ -85,7 +85,7 @@ You might want to give it a custom color as well:
 
 ```css
 .navbar {
-  padding 1rem;
+  padding: 1rem;
   background-color: blue;
 }
 ```
